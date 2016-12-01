@@ -1,0 +1,36 @@
+///////////////////////////
+elementary OS vs Windows 10
+///////////////////////////
+
+
+Usability {
+	Minimise
+	UI
+	Intuitive
+	Simple
+	Minimalistic
+	Less Features
+	Mac inspired design
+	Hangs often, low multimedia support
+	Ubuntu-Compatible
+	slower than other Linux distros
+	No Cortana
+}
+
+Kernel architecture {
+	Linux {
+		Kernel type:
+			monolithic
+		Scheduling support: 
+			true preemptive multitasking (both in user mode and, since the 2.6 series, in kernel mode)
+		Memory mapping:
+			virtual memory, shared libraries, demand loading, shared copy-on-write executables, memory management
+		Networking support:
+			TCP/IP
+		Threading:
+			1:1, i.e., user-mode threads correspond to kernel-mode threads
+	}
+	Windows {
+
+	}	
+}
